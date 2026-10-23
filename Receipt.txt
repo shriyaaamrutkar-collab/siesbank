@@ -1,0 +1,9 @@
+ --- Account Statement ---
+ Balance: ₹0.0
+
+[12:58:07] Deposited: +₹2345.0
+ Current Balance: ₹2345.0
+
+[12:58:35] Withdrew:  -₹123.0
+ Current Balance: ₹2222.0
+

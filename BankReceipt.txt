@@ -1,0 +1,12 @@
+ --- Official Bank Statement ---
+ Current Balance: ₹0.0
+
+[17:47:33] Deposited: +₹1245.0
+ Current Balance: ₹1245.0
+
+[17:47:39] Deposited: +₹12.0
+ Current Balance: ₹1257.0
+
+[17:47:46] Withdrew:  -₹1222.0
+ Current Balance: ₹35.0
+
