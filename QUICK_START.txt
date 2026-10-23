@@ -1,0 +1,96 @@
+
+===================================================================================
+                QUICK START GUIDE - RUN THE APPLICATION
+===================================================================================
+
+TO RUN THE APP (from Command Prompt/PowerShell):
+-------------------------------------------------
+
+1. Navigate to the MINIPROJECT folder:
+   cd "c:\Users\shriy\OneDrive\Desktop\Shriyaa_java\MINIPROJECT"
+
+2. Run the application:
+   java MainUI
+
+3. The GUI window will open with the Time Management App!
+
+
+IF YOU NEED TO RECOMPILE:
+--------------------------
+
+javac *.java
+
+(This compiles all .java files in the directory)
+
+
+APP LAYOUT:
+-----------
+
+┌─────────────────────────────────────┬──────────────────────┐
+│                                     │                      │
+│     TASK LIST (LEFT SIDE)           │  TIMER (RIGHT SIDE)  │
+│                                     │                      │
+│  • Add Task Input Fields            │  ⏱ 25:00            │
+│  • Task List Display                │  • ▶ Start Button    │
+│  • Delete Button                    │  • ⏸ Stop Button     │
+│  • Mark Complete Button             │  • 🔄 Reset Button   │
+│  • Clear All Button                 │                      │
+│                                     │                      │
+└─────────────────────────────────────┴──────────────────────┘
+
+
+KEY FEATURES:
+-------------
+✓ Add tasks with due dates
+✓ Mark tasks as done
+✓ Delete tasks
+✓ 25-minute Pomodoro timer
+✓ Simple, clean interface
+✓ No external dependencies needed
+
+
+FILES INCLUDED:
+---------------
+1. Task.java          - Task data model
+2. TaskManager.java   - Task management logic
+3. TimerManager.java  - Timer logic
+4. MainUI.java        - GUI interface (main entry point)
+5. README.txt         - Detailed documentation
+
+
+WHAT EACH CLASS DOES (Quick Summary):
+--------------------------------------
+
+Task.java
+• Stores info about a single task
+• Properties: taskId, taskName, dueDate, isCompleted
+• Methods: getters, setters, toString()
+
+TaskManager.java
+• Manages collection of Task objects
+• Methods: addTask(), deleteTask(), markTaskCompleted(), etc.
+• Uses ArrayList internally
+
+TimerManager.java
+• Implements Pomodoro timer (25 minutes)
+• Methods: startTimer(), stopTimer(), resetTimer(), tick()
+• Tracks remaining time
+
+MainUI.java
+• Creates the complete GUI
+• Uses Java Swing components
+• Connects to TaskManager and TimerManager
+• Has all button event handlers
+
+
+OOP CONCEPTS USED:
+------------------
+1. Encapsulation - Private variables with public getters/setters
+2. Abstraction - Complex logic hidden in classes
+3. Composition - MainUI "uses" TaskManager and TimerManager
+4. Polymorphism - Overloaded constructors
+
+
+===================================================================================
+                    READY TO USE! ENJOY YOUR APP! 🎉
+===================================================================================
